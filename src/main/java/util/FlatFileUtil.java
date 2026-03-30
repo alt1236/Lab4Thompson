@@ -1,10 +1,19 @@
+/**
+ * Project: Lab 4 - Pizza Shop
+ * Purpose Details: Demonstrates sending and receiving Pizza objects using
+ * flat file format and JSON serialization via RabbitMQ.
+ * Course: (IST 242)
+ * Author: (Alyssa Thompson)
+ * Date Developed: (3/28)
+ * Last Date Changed: (3/30)
+ * Rev: 2.0
+ */
+
 package util;
 
 import model.Pizza;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 public class FlatFileUtil {
     /**
      * Convert Pizza object to delimited string

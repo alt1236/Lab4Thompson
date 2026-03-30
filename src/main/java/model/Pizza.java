@@ -1,3 +1,14 @@
+/**
+ * Project: Lab 4 - Pizza Shop
+ * Purpose Details: Demonstrates sending and receiving Pizza objects using
+ * flat file format and JSON serialization via RabbitMQ.
+ * Course: (IST 242)
+ * Author: (Alyssa Thompson)
+ * Date Developed: (3/28)
+ * Last Date Changed: (3/30)
+ * Rev: 2.0
+ */
+
 package model;
 
 /**
@@ -5,14 +16,36 @@ package model;
  */
 
 public class Pizza {
-
+    /**
+     * The size of the pizza.
+     */
     private String size;
+    /**
+     * The type of the crust.
+     */
     private String crust;
+    /**
+     * The type of the sauce.
+     */
     private String sauce;
+    /**
+     * The toppings on the pizza.
+     */
     private String toppings;
+    /**
+     * The price of the pizza.
+     */
     private double price;
 
-    public Pizza(){}
+    /**
+     * Constructor to initialize a Pizza object.
+     *
+     * @param size The size of the pizza
+     * @param crust The crust type
+     * @param sauce The sauce type
+     * @param toppings The toppings
+     * @param price The price
+     */
 
     public Pizza(String size, String crust, String sauce, String toppings, double price) {
         this.size = size;
